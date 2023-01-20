@@ -1,0 +1,47 @@
+/* Define the animation in a style sheet */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes deleting {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+.typing-animation {
+    position: relative;
+    animation: typing 1s linear infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.typing-animation::before {
+    content: "";
+    position: absolute;
+    animation: deleting 1s linear infinite;
+    animation-delay: 5s;
+    left: 100%;
+    width: 100%;
+    background: white;
+}
+
+.typing-animation::after {
+    content: "";
+    position: absolute;
+    animation: deleting 1s linear infinite;
+    animation-delay: 5s;
+    right: 100%;
+    width: 100%;
+    background: white;
+}

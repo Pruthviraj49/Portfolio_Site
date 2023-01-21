@@ -1,50 +1,24 @@
-// import React from 'react'
-// import Link from 'next/link'
-// import { BsFillMoonStarsFill } from 'react-icons/bs'
-// import { useRouter } from 'next/router'
-// import { useState } from "react"
-
-// const Navbar = () => {
-//     const [darkMode, setDarkMode] = useState(false);
-//     const router = useRouter()
-//     function isActive(route) {
-//         if (route == router.pathname) {
-//             return 'active'
-//         }
-//     }
-
-
-//     return (
-//         <div className='py-10 flex justify-between md:flex md:items-center px-20 '>
-//             <Link className='text-3xl font-bold font-chivoMono' href="/"> Portfolio </Link>
-//             <nav >
-//                 <ul className='md:flex md:items-center'>
-//                     <li className={isActive('/')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/">Home</Link></li>
-//                     <li className={isActive('/education')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/education">Education</Link></li>
-//                     <li className={isActive('/experience')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Experience</Link></li>
-//                     <li className={isActive('/skills')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Skills</Link></li>
-//                     <li className={isActive('/projects')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Projects</Link></li>
-//                     <li className={isActive('/contact')}><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/contact">Contact</Link></li>
-//                     <a>
-//                         <BsFillMoonStarsFill className onClick={() => setDarkMode(!darkMode)} />
-//                     </a>
-//                 </ul>
-
-
-//             </nav>
-//         </div>
-//     )
-// }
-
-// export default Navbar
-
 import Head from 'next/head';
 import Link from 'next/link';
-import { useState } from 'react';
+import sun from '../public/sun.svg'
+import moon from '../public/moon.svg'
+
+import { useState, useEffect } from "react"
+import { useTheme } from 'next-themes'
+import Image from 'next/image'
 
 
 export default function Home() {
     const [navbar, setNavbar] = useState(false);
+    const { systemTheme, theme, setTheme } = useTheme();
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
+    if (!mounted) return null;
+    const currentTheme = theme === 'system' ? systemTheme : theme;
     return (
         <div>
             <Head>
@@ -55,7 +29,11 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <nav className="w-full ">
+
+
+
+
+            <nav className="w-full fixed z-50 top-0 ">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -68,7 +46,7 @@ export default function Home() {
                                     {navbar ? (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-white"
+                                            className="w-6 h-6 text-black"
                                             viewBox="0 0 20 20"
                                             fill="currentColor"
                                         >
@@ -81,7 +59,7 @@ export default function Home() {
                                     ) : (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-white"
+                                            className="w-6 h-6 text-black"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -107,9 +85,31 @@ export default function Home() {
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/">Home</Link></li>
                                 <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/education">Education</Link></li>
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Experience</Link></li>
-
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Projects</Link></li>
                                 <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/contact">Contact</Link></li>
+                                <div>
+                                    <div >
+                                        {currentTheme === 'dark' ? (
+                                            <button
+                                                className=" "
+                                                onClick={() => setTheme('light')}
+                                            >
+                                                {' '}
+                                                <Image src={sun} alt="logo" height="20" width="20" />
+
+                                            </button>
+                                        ) : (
+                                            <button
+                                                className=" "
+                                                onClick={() => setTheme('dark')}
+                                            >
+                                                <Image src={moon} alt="logo" height="20" width="20" />
+
+
+                                            </button>
+                                        )}
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </div>

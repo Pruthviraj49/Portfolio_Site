@@ -4,16 +4,15 @@ import { Inter } from '@next/font/google'
 import pruthvi from '../public/pruthviraj.png'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
-import { useState } from "react"
-
+import { useState, useEffect } from "react"
+import { useTheme } from 'next-themes'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [darkMode] = useState(false);
 
   return (
-    <div className={darkMode ? 'dark' : ""}>
+    <div >
 
       <Head>
         <title>Portfolio</title>
@@ -22,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' px-10 md:px-20 lg:px-40 bg-gray-200' >
+      <main className=' px-10 md:px-20 lg:px-40  py-20' >
 
         <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b rounded-full from-cyan-600 md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
           <Image src={pruthvi} layout="fill" objectFit='cover' />

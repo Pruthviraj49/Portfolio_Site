@@ -6,7 +6,6 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
 
-
       <Layout>
         <Component {...pageProps} />
       </Layout>

@@ -4,15 +4,13 @@ import { Inter } from '@next/font/google'
 import pruthvi from '../public/pruthviraj.png'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
-import { useState, useEffect } from "react"
-import { useTheme } from 'next-themes'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
   return (
-    <div >
+    <div id='home'>
 
       <Head>
         <title>Portfolio</title>
@@ -55,9 +53,6 @@ export default function Home() {
           <AiFillGithub />
           <AiFillTwitterCircle />
         </div>
-
-
-
 
       </main>
     </div >

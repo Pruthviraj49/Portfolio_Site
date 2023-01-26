@@ -33,20 +33,19 @@ export default function Home() {
 
 
 
-            <nav className="w-full fixed z-50 top-0 ">
+            <nav className="w-full z-50 top-0 ">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <Link className='text-3xl font-bold font-chivoMono' href="/"> Portfolio </Link>
+
+
                             <div className="md:hidden">
-                                <button
-                                    className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
-                                    onClick={() => setNavbar(!navbar)}
-                                >
+                                <button className="p-1 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
                                     {navbar ? (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-black"
+                                            className="w-6 h-6 text-gray-500"
                                             viewBox="0 0 20 20"
                                             fill="currentColor"
                                         >
@@ -59,7 +58,7 @@ export default function Home() {
                                     ) : (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
-                                            className="w-6 h-6 text-black"
+                                            className="w-6 h-6 text-gray-500"
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
@@ -73,6 +72,7 @@ export default function Home() {
                                         </svg>
                                     )}
                                 </button>
+
                             </div>
                         </div>
                     </div>
@@ -81,13 +81,13 @@ export default function Home() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                            <ul className="items-center justify-center space-y-2 md:flex md:space-x-6 md:space-y-0 ">
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/">Home</Link></li>
                                 <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/education">Education</Link></li>
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Experience</Link></li>
                                 <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Projects</Link></li>
                                 <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/contact">Contact</Link></li>
-                                <div>
+                                <div className='px-3'>
                                     <div >
                                         {currentTheme === 'dark' ? (
                                             <button

@@ -33,11 +33,11 @@ export default function Home() {
 
 
 
-            <nav className="w-full z-50 top-0 ">
+            <nav className="w-full z-50 top-0 font-chivoMono">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <Link className='text-3xl font-bold font-chivoMono' href="/"> Portfolio </Link>
+                            <Link className='text-3xl font-bold ' href="/"> Portfolio </Link>
 
 
                             <div className="md:hidden">
@@ -81,12 +81,12 @@ export default function Home() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="items-center justify-center space-y-2 md:flex md:space-x-6 md:space-y-0 ">
-                                <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/">Home</Link></li>
-                                <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/education">Education</Link></li>
-                                <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Experience</Link></li>
-                                <li ><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Projects</Link></li>
-                                <li><Link className='font-chivoMono font-semibold hover:underline mx-3 my-4 md:my-0' href="/contact">Contact</Link></li>
+                            <ul className="items-center justify-center space-y-1 md:flex md:space-x-6 md:space-y-0 ">
+                                <li ><Link className=' font-semibold hover:underline mx-3 my-4 md:my-0' href="/">Home</Link></li>
+                                <li><Link className=' font-semibold hover:underline mx-3 my-4 md:my-0' href="/education">Education</Link></li>
+                                <li ><Link className=' font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Experience</Link></li>
+                                <li ><Link className=' font-semibold hover:underline mx-3 my-4 md:my-0' href="#">Projects</Link></li>
+                                <li><Link className=' font-semibold hover:underline mx-3 my-4 md:my-0' href="/contact">Contact me</Link></li>
                                 <div className='px-3'>
                                     <div >
                                         {currentTheme === 'dark' ? (

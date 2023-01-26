@@ -5,7 +5,7 @@ import React from 'react';
 const Education_details = () => {
     return (
         <section >
-            <div className='py-40 '>
+            <div className='py-20 h-screen'>
                 <Education />
 
             </div>

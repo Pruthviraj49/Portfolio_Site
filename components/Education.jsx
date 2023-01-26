@@ -19,7 +19,7 @@ const jsonData = [
         "degree": "10th SSC",
         "year": "Apr-18",
         "marks": "96.80 %"
-    },
+    }
 
 
 ];

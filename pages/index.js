@@ -22,7 +22,7 @@ export default function Home() {
       <main className=' px-10 md:px-20 lg:px-40  py-20' >
 
         <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b rounded-full from-cyan-600 md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
-          <Image src={pruthvi} layout="fill" objectFit='cover' />
+          <Image src={pruthvi} layout="fill" objectFit='cover' alt="default" />
         </div>
 
         <div className='text-center p-10'>

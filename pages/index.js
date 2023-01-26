@@ -28,7 +28,7 @@ export default function Home() {
         <div className='text-center p-10'>
           <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 text-teal-500 font-medium font-chivoMono'>Pruthviraj Suryawanshi</h2>
           <div className='inline-flex'>
-            <h3 className='sm:text-3xl md:text-4xl text-xl py-3 font-bold font-chivoMono'>m a</h3>
+            <h3 className='sm:text-3xl md:text-4xl text-xl py-3 font-bold font-chivoMono'>I'm a</h3>
             <h3 className='sm:text-3xl md:text-4xl text-lg py-3 px-2 font-bold font-chivoMono text-red-600'>
               <Typewriter
                 options={{

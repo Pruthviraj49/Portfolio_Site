@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import pruthvi from '../public/pruthviraj.png'
-import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook } from 'react-icons/ai'
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillInstagram } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -26,7 +26,7 @@ export default function Home() {
         </div>
 
         <div className='text-center p-10'>
-          <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 text-teal-500 font-medium font-chivoMono'>Pruthviraj Suryawanshi</h2>
+          <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 text-teal-500 font-semibold font-chivoMono'>Pruthviraj Suryawanshi</h2>
           <div className='inline-flex'>
             <h3 className='sm:text-3xl md:text-4xl text-xl py-3 font-bold font-chivoMono'>I'm a</h3>
             <h3 className='sm:text-3xl md:text-4xl text-lg py-3 px-2 font-bold font-chivoMono text-red-600'>
@@ -47,12 +47,16 @@ export default function Home() {
 
         </div>
 
-        <div className='flex text-4xl justify-center gap-7 py-5 text-gray-700'>
-          <AiFillLinkedin />
-          <AiFillFacebook />
-          <AiFillGithub />
-          <AiFillTwitterCircle />
+        <div className='flex text-4xl justify-center gap-7 py-5 text-gray-700 '>
+          <div> <a href='https://www.linkedin.com/in/pruthviraj-suryawanshi-9628b4205/'><AiFillLinkedin className='cursor-pointer' id='linkedin' /></a></div>
+          <div> <a href='https://www.facebook.com/pruthviraj.suryawanshi.566/'><AiFillFacebook className='cursor-pointer' id='facebook' /></a></div>
+          <div> <a href='https://github.com/Pruthviraj49'> <AiFillGithub className='cursor-pointer' id='github' /></a></div>
+          <div> <a href='https://twitter.com/Pruthvi_raj49'><AiFillTwitterCircle className='cursor-pointer' id='twitter' /></a></div>
+          <div> <a href='https://www.instagram.com/pruthvi_raj49/'><AiFillInstagram className='cursor-pointer' id='linkedin' /></a></div>
+
+
         </div>
+
 
       </main>
     </div >

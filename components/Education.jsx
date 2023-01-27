@@ -32,10 +32,10 @@ const Education = () => {
             <table className="shadow-lg bg-gray-500 sm:mx-20 ">
                 <thead>
                     <tr className='border-2'>
-                        <th className='border-2 bg-orange-400 text-left px-2 py-2 text-lg sm:text-xl'>College Name </th>
-                        <th className='border-2 bg-orange-400 text-left px-2 py-2 text-lg sm:text-xl'>Degree</th>
-                        <th className='border-2 bg-orange-400 text-left px-2 py-2 text-lg sm:text-xl'>Year</th>
-                        <th className='border-2 bg-orange-400 text-left px-2 py-2 text-lg sm:text-xl'>Marks</th>
+                        <th className='border-2 bg-orange-300 text-left px-2 py-2 text-lg sm:text-xl'>College Name </th>
+                        <th className='border-2 bg-orange-300 text-left px-2 py-2 text-lg sm:text-xl'>Degree</th>
+                        <th className='border-2 bg-orange-300 text-left px-2 py-2 text-lg sm:text-xl'>Year</th>
+                        <th className='border-2 bg-orange-300 text-left px-2 py-2 text-lg sm:text-xl'>Marks</th>
                     </tr>
                 </thead>
                 <tbody>

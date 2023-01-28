@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import emailjs from "emailjs-com"
+import emailjs from '@emailjs/browser'
 const Contact = () => {
     const [values, setValues] = useState({
         name: "",

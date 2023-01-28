@@ -47,7 +47,7 @@ export default function Home() {
 
 
             <nav className={color ? 'nav-color w-full fixed z-50 top-0 shadow-lg ' : 'w-full fixed z-50 top-0 nav-change'}>
-                <div className="font-chivoMono justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+                <div className="font-chivoMono justify-between px-4 py-2 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-2 md:block">
                             <Link className='text-3xl font-bold' href="/"> Portfolio </Link>

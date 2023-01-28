@@ -1,16 +1,16 @@
-import Contact from '../../components/Contact';
-import React from 'react';
+// import Contact from '../../components/Contact';
+// import React from 'react';
 
 
-const Contact_Details = () => {
-    return (
-        <section >
+// const Contact_Details = () => {
+//     return (
+//         <section >
 
-            <Contact />
+//             <Contact />
 
-        </section>
+//         </section>
 
-    );
-};
+//     );
+// };
 
-export default Contact_Details;
+// export default Contact_Details;

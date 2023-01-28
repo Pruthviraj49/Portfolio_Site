@@ -1,18 +1,18 @@
-import Education from '../../components/Education';
-import React from 'react';
+// import Education from '../../components/Education';
+// import React from 'react';
 
 
-const Education_details = () => {
-    return (
-        <section >
-            <div className='py-20 h-screen'>
-                <Education />
+// const Education_details = () => {
+//     return (
+//         <section >
+//             <div className='py-20 h-screen'>
+//                 <Education />
 
-            </div>
+//             </div>
 
-        </section>
+//         </section>
 
-    );
-};
+//     );
+// };
 
-export default Education_details;
+// export default Education_details;

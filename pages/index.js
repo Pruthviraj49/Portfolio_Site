@@ -4,13 +4,15 @@ import { Inter } from '@next/font/google'
 import pruthvi from '../public/pruthviraj.png'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillInstagram } from 'react-icons/ai'
 import Typewriter from 'typewriter-effect';
-
+import Education from '../components/Education';
+import Contact from '../components/Contact';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
   return (
-    <div id='home'>
+
+    <div>
 
       <Head>
         <title>Portfolio</title>
@@ -18,47 +20,62 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <section id='home' >
+        <main className=' px-10 md:px-20 lg:px-40 py-20' >
 
-      <main className=' px-10 md:px-20 lg:px-40  py-20' >
-
-        <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b rounded-full from-cyan-600 md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
-          <Image src={pruthvi} layout="fill" objectFit='cover' alt="default" />
-        </div>
-
-        <div className='text-center p-10'>
-          <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 text-teal-500 font-semibold font-chivoMono'>Pruthviraj Suryawanshi</h2>
-          <div className='inline-flex'>
-            <h3 className='sm:text-3xl md:text-4xl text-xl py-3 font-bold font-chivoMono'>I&apos;m a</h3>
-            <h3 className='sm:text-3xl md:text-4xl text-lg py-3 px-2 font-bold font-chivoMono text-red-600'>
-              <Typewriter
-                options={{
-                  strings: ['Flutter Developer', 'Programmer', 'Problem Solver'],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h3>
+          <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b rounded-full from-cyan-600 md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
+            <Image src={pruthvi} layout="fill" objectFit='cover' alt="default" />
           </div>
 
-          <h3 className='sm:text-xl md:text-2xl text-base dark:text-white'>About Myself</h3>
-          <p className='sm:text-xl md:text-2xl text-base py-5 leading-6 text-gray-900 font-chivoMono max-w-lg mx-auto dark:text-white'>
-            I am a third year student at Veemata Jijabai Technological Institute, Mumbai.
-          </p>
+          <div className='text-center p-10'>
+            <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 text-teal-500 font-semibold font-chivoMono'>Pruthviraj Suryawanshi</h2>
+            <div className='inline-flex'>
+              <h3 className='sm:text-3xl md:text-4xl text-lg py-3 font-bold font-chivoMono'>I&apos;m a</h3>
+              <h3 className='sm:text-3xl md:text-4xl text-lg py-3 px-2 font-bold font-chivoMono text-orange-500'>
+                <Typewriter
+                  options={{
+                    strings: ['Flutter Developer', 'Programmer', 'Problem Solver'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </h3>
+            </div>
+
+            <h3 className='sm:text-xl md:text-2xl text-base dark:text-white'>About Myself</h3>
+            <p className='sm:text-xl md:text-2xl text-base py-5 leading-6 text-gray-900 font-chivoMono max-w-lg mx-auto dark:text-white'>
+              I am a third year student at Veemata Jijabai Technological Institute, Mumbai.
+            </p>
+
+          </div>
+
+          <div className='flex text-4xl justify-center gap-7 py-5 text-gray-700 '>
+            <div> <a href='https://www.linkedin.com/in/pruthviraj-suryawanshi-9628b4205/'><AiFillLinkedin className='cursor-pointer' id='linkedin' /></a></div>
+            <div> <a href='https://www.facebook.com/pruthviraj.suryawanshi.566/'><AiFillFacebook className='cursor-pointer' id='facebook' /></a></div>
+            <div> <a href='https://github.com/Pruthviraj49'> <AiFillGithub className='cursor-pointer' id='github' /></a></div>
+            <div> <a href='https://twitter.com/Pruthvi_raj49'><AiFillTwitterCircle className='cursor-pointer' id='twitter' /></a></div>
+            <div> <a href='https://www.instagram.com/pruthvi_raj49/'><AiFillInstagram className='cursor-pointer' id='linkedin' /></a></div>
+
+
+          </div>
+
+
+        </main>
+      </section>
+      <section id='education'>
+        <div className='py-20 h-screen'>
+          <Education />
 
         </div>
 
-        <div className='flex text-4xl justify-center gap-7 py-5 text-gray-700 '>
-          <div> <a href='https://www.linkedin.com/in/pruthviraj-suryawanshi-9628b4205/'><AiFillLinkedin className='cursor-pointer' id='linkedin' /></a></div>
-          <div> <a href='https://www.facebook.com/pruthviraj.suryawanshi.566/'><AiFillFacebook className='cursor-pointer' id='facebook' /></a></div>
-          <div> <a href='https://github.com/Pruthviraj49'> <AiFillGithub className='cursor-pointer' id='github' /></a></div>
-          <div> <a href='https://twitter.com/Pruthvi_raj49'><AiFillTwitterCircle className='cursor-pointer' id='twitter' /></a></div>
-          <div> <a href='https://www.instagram.com/pruthvi_raj49/'><AiFillInstagram className='cursor-pointer' id='linkedin' /></a></div>
+      </section>
+      <section id='contact'>
+
+        <Contact />
+
+      </section>
 
 
-        </div>
-
-
-      </main>
     </div >
   )
 }

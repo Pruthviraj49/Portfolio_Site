@@ -16,7 +16,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
                     <h2 className=" text-xl font-bold cursor-pointer hover:underline  mb-2">Mape Labs</h2>
-                    <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p>
+                    {/* <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p> */}
                     <div className="flex text-gray-200 gap-4 flex-wrap">
                         <p></p>
 
@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
                     <h2 className=" text-xl font-bold cursor-pointer hover:underline  mb-2">Mape Labs</h2>
-                    <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p>
+                    {/* <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p> */}
                     <div className="flex text-gray-200 gap-4 flex-wrap">
                         <p></p>
 
@@ -54,7 +54,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
                     <h2 className=" text-xl font-bold cursor-pointer hover:underline  mb-2">Mape Labs</h2>
-                    <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p>
+                    {/* <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p> */}
                     <div className="flex text-gray-200 gap-4 flex-wrap">
                         <p></p>
 
@@ -73,7 +73,7 @@ const Projects = () => {
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
                     <h2 className=" text-xl font-bold cursor-pointer hover:underline mb-2">Mape Labs</h2>
-                    <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p>
+                    {/* <p className="font-bold px-5 ">An NFT Project on Solana I made for Mape Labs</p> */}
                     <div className="flex text-gray-200 gap-4 flex-wrap">
                         <p></p>
 

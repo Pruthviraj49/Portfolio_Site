@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="PStech.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.71446409"
+     inkscape:cx="396.80091"
+     inkscape:cy="657.1359"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g42979" />
+  <defs
+     id="defs2">
+    <rect
+       x="134.36645"
+       y="373.70668"
+       width="557.06089"
+       height="309.32276"
+       id="rect15127" />
+    <rect
+       x="111.97204"
+       y="351.31227"
+       width="592.05215"
+       height="344.31402"
+       id="rect9214" />
+    <rect
+       x="111.97204"
+       y="351.31227"
+       width="592.05215"
+       height="344.31402"
+       id="rect42981" />
+    <rect
+       x="134.36645"
+       y="373.70668"
+       width="557.06089"
+       height="309.32276"
+       id="rect42983" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text9212"
+       style="font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect9214)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text15125"
+       style="font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15127)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:140.279px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#00000c;fill-opacity:1;stroke:#000000;stroke-width:0.350697;stroke-opacity:1"
+       x="27.439692"
+       y="182.0919"
+       id="text27587"
+       transform="scale(0.94477086,1.0584577)"><tspan
+         sodipodi:role="line"
+         id="tspan27585"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#00000c;fill-opacity:1;stroke:#000000;stroke-width:0.350697;stroke-opacity:1"
+         x="27.439692"
+         y="182.0919">PS</tspan></text>
+  </g>
+  <g
+     inkscape:label="Layer 1 copy"
+     inkscape:groupmode="layer"
+     id="g42979">
+    <g
+       id="g1143" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text42969"
+       style="font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect42981)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text42973"
+       style="font-size:8px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect42983)" />
+    <g
+       id="g1151"
+       transform="translate(0.74064837,12.220698)">
+      <rect
+         style="fill:#9e9e9e;fill-opacity:0.823529;stroke-width:0.286892"
+         id="rect870"
+         width="210.85223"
+         height="215.065"
+         x="-0.13777371"
+         y="26.756676"
+         rx="66.422554" />
+      <rect
+         style="fill:#fb8c00;fill-opacity:0.823529;stroke-width:0.262606"
+         id="rect42965"
+         width="194.79053"
+         height="195.05032"
+         x="-0.13777371"
+         y="26.756676"
+         rx="61.362804" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:140.279px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.350697;stroke-opacity:1"
+         x="14.89657"
+         y="174.3947"
+         id="text42977"
+         transform="scale(0.94477086,1.0584577)"><tspan
+           sodipodi:role="line"
+           id="tspan42975"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS Bold';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.350697;stroke-opacity:1"
+           x="14.89657"
+           y="174.3947">PS</tspan></text>
+    </g>
+  </g>
+</svg>

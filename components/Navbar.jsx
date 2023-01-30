@@ -6,12 +6,14 @@ import { useState, useEffect } from "react"
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import pruthvi from '../public/PStech.svg'
+import ScrollLink from './ScrollLink';
 
 export default function Home() {
     const [navbar, setNavbar] = useState(false);
     const { systemTheme, theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const [color, setColor] = useState(false);
+
 
     const changeColor = () => {
         if (window.scrollY >= 60) {
@@ -53,12 +55,7 @@ export default function Home() {
                 <div className="font-chivoMono justify-between px-4 py-2 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between md:block">
-
-
-                            <Link href="#home">
-                                <Image src={pruthvi} height={60} layout="" objectFit='fit' alt="default" />
-                            </Link>
-
+                            <ScrollLink href="#home" ><Image src={pruthvi} height={60} layout="" objectFit='fit' alt="default" /></ScrollLink >
                             {/* hamburger */}
                             <div className="md:hidden">
                                 <button className="p-1 text-gray-600 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
@@ -102,29 +99,32 @@ export default function Home() {
                                 }`}
                         >
                             <ul className="b-1 items-center justify-center space-y-1 md:flex md:space-x-6 md:space-y-0 ">
-                                <li className={`pb-2 text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'home' ? 'underline' : ''}`}>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'home' ? 'underline' : ''}`}>
                                     <Link href="#home" onClick={() => { setNavbar(!navbar) }} >
-                                        Home
+                                        <ScrollLink href="#home" >Home</ScrollLink >
                                     </Link>
                                 </li>
-                                <li className={`pb-2  text-base font-semibold md:text-lg px-3  text-start hover:underline md:hover:bg-transparent ${activeLink === 'about' ? 'underline' : ''}`}>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3  text-start hover:underline md:hover:bg-transparent ${activeLink === 'about' ? 'underline' : ''}`}>
                                     <Link href="#about" onClick={() => { setNavbar(!navbar) }}>
-                                        About
+                                        <ScrollLink href="#about" >About</ScrollLink >
                                     </Link>
+
+
+
                                 </li>
-                                <li className={`pb-2 text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'experience' ? 'underline' : ''}`}>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'experience' ? 'underline' : ''}`}>
                                     <Link href="#experience" onClick={() => { setNavbar(!navbar) }}>
-                                        Experience
+                                        <ScrollLink href="#experience" >Experience</ScrollLink >
                                     </Link>
                                 </li>
-                                <li className={`pb-2 text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'projects' ? 'underline-' : ''}`}>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'projects' ? 'underline-' : ''}`}>
                                     <Link href="#projects" onClick={() => { setNavbar(!navbar) }}>
-                                        Projects
+                                        <ScrollLink href="#projects" >Projects</ScrollLink >
                                     </Link>
                                 </li>
-                                <li className={`pb-2 text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'contact' ? 'underline' : ''}`}>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'contact' ? 'underline' : ''}`}>
                                     <Link href="#contact" onClick={() => { setNavbar(!navbar) }}>
-                                        Contact
+                                        <ScrollLink href="#contact" >Contact</ScrollLink >
                                     </Link>
                                 </li>
 

@@ -6,7 +6,42 @@ import Typewriter from 'typewriter-effect';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects'
+import Experience from '../components/Experience'
+import { motion } from 'framer-motion'
+
 const inter = Inter({ subsets: ['latin'] })
+
+let easeing = [0.6, -0.05, 0.01, 0.99];
+const stagger = {
+  animate: {
+    transition: {
+      delayChildren: 0.4,
+      staggerChildren: 0.2,
+      staggerDirection: 1
+    }
+  }
+}
+
+const fadeInUp = {
+  intial: {
+    y: -60,
+    opacity: 0,
+    transition: {
+      duration: 1.5, ease: easeing
+    }
+  },
+  animate: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      delay: 1.5,
+      ease: easeing
+    }
+  }
+};
+const transition = { duration: 1.5, ease: [0.6, 0.01, -0.05, 0.9] };
+
 
 export default function Home() {
 
@@ -26,8 +61,8 @@ export default function Home() {
           <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b bg-gray-100 rounded-full md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
             <Image src={pruthvi} layout="contain" objectFit='contain' alt="default" />
           </div>
-          <div>
 
+          <div>
             <div className='text-center p-10'>
               <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 font-semibold font-chivoMono'>Hi, myself Pruthviraj</h2>
               <div className='inline-flex'>
@@ -44,7 +79,8 @@ export default function Home() {
               </div>
             </div>
             <p className='sm:text-lg md:text-xl text-base text-center py-5 leading-6 text-gray-900 font-chivoMono max-w-lg mx-auto dark:text-white'>
-              working
+              I am currently pursuing B-Tech(3rd Year) in Information Technology from Veermata Jijabai Technological Institute, Mumbai.
+              I am passionate about building excellent software that improves the lives of those around me.
             </p>
           </div>
         </main>
@@ -55,6 +91,10 @@ export default function Home() {
         <div className='py-20 h-screen'>
           <About />
         </div>
+      </section>
+
+      <section id='experience'>
+        <div><Experience /></div>
       </section>
 
       <section id='projects'>

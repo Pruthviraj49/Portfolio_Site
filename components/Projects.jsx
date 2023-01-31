@@ -13,27 +13,26 @@ const Projects = () => {
             <div className='flex flex-col md:flex-row justify-center pt-10 font-chivoMono items-center w-full '>
 
                 <div className='w-full md:px-52 sm:px-16 px-10 md:w-1/2'>
-                    <Image className=' border-4 border-orange-500' src={Project2} layout="" objectFit='contain' alt="default" />
+                    <Image className=' border-4 border-orange-500' src={Project1} height={300} layout="" objectFit='contain' alt="default" />
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
                     <h2 className=" text-xl font-bold cursor-pointer hover:underline  mb-2">NewsMania (Flutter App)</h2>
                     <p className="font-bold px-5 ">NewsMania essentially uses a News API to fetch
                         Real-time data. We can search news &amp;
                         read it on the article posted by that publisher, it also redirected it to particular article through WebView.</p>
-                    <div className="flex text-gray-200 gap-4 flex-wrap">
-                        <p></p>
+                    <div className="flex sm:px-10 text-start text-gray-200 gap-3 mt-2 flex-wrap">
 
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
-                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-500 p-1 mt-2">Flutter</div>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
+                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-500 p-1">Flutter</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
-                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">Dart</div>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
+                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1">Dart</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
-                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">REST-API</div>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
+                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 ">REST-API</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
-                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">WebView</div>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
+                            <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 ">WebView</div>
                         </div>
                     </div>
 
@@ -43,29 +42,28 @@ const Projects = () => {
             <div className='flex flex-col md:flex-row pt-10 justify-center font-chivoMono items-center w-full '>
 
                 <div className='w-full md:px-52 sm:px-16 px-10 md:w-1/2'>
-                    <Image className=' border-4 border-orange-500' src={Project1} layout="" objectFit='contain' alt="default" />
+                    <Image className=' border-4 border-orange-500' src={Project2} height={300} layout="" objectFit='contain' alt="default" />
                 </div>
                 <div className="w-full px-10 sm:px-16 md:w-1/2 text-start">
-                    <h2 className=" text-xl font-bold cursor-pointer hover:underline  mb-2">TakeNote (Flutter App)</h2>
+                    <h2 className=" text-xl font-bold cursor-pointer hover:underline mb-2">TakeNote (Flutter App)</h2>
                     <p className="font-bold px-5 ">NoteTake app is a short notes&ndash;taking app. In this app, we can perform
                         CRUD operations with a user&ndash;friendly UI design.
                         Also integrated Google Authentication using firebase.</p>
-                    <div className="flex text-gray-200 gap-4 flex-wrap">
-                        <p></p>
+                    <div className="flex sm:px-10 text-gray-200 gap-3 flex-wrap">
 
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
                             <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-500 p-1 mt-2">Flutter</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
                             <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">Dart</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
                             <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">SQFlite</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
                             <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">SQL</div>
                         </div>
-                        <div className='flex text-gray-200 gap-4 flex-wrap'>
+                        <div className='flex text-gray-200 gap-3 flex-wrap'>
                             <div class="rounded-md bg-gradient-to-r from-orange-500 via-red-500 to-rose-600 p-1 mt-2">FireBase</div>
                         </div>
                     </div>

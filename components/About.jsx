@@ -60,10 +60,25 @@ const About = () => {
                     </tbody>
                 </table>
 
-                <div>
-                    <h1 className="text-lg sm:text-xl font-bold py-5">Extra Curricular Activities :</h1>
 
-                </div>
+                <h1 className="text-lg sm:text-xl font-bold py-5">Achievements :</h1>
+                <ul className="list-outside sm:px-36 font-bold list-disc">
+                    <li className="text-start  sm:text-lg md:text-xl text-base py-2 leading-6">
+                        I have secured a 100 percentile score
+                        in Chemistry subject and got a rank of
+                        260 among 2 lakh students in MHT-
+                        CET.
+                    </li>
+                    <li className="text-start sm:text-lg md:text-xl text-base py-2 leading-6">
+                        Code chef highest global rank 1951 with
+                        1465 ratting.
+                    </li>
+                    <li className="text-start sm:text-lg md:text-xl text-base py-2 leading-6">
+                        I have been part of our official college kho-kho team.
+                    </li>
+                </ul>
+
+
             </div>
         </div>
     );

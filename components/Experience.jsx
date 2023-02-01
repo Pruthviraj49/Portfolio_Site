@@ -16,7 +16,7 @@ export default function Experience() {
                     <div className='pb-5'>
                         <h1 className='text-base sm:text-lg md:text-xl font-bold text-orange-400'>Flutter Developer</h1>
                         <h2 className=''>Incipient Technologies Pvt Ltd</h2>
-                        <h3>(Aug'22 - Oct'22)</h3>
+                        <h3>(Aug&apos;22 - Oct&apos;22)</h3>
 
                     </div>
                 </div>
@@ -27,7 +27,7 @@ export default function Experience() {
                     <div className='pb-5'>
                         <h1 className='text-base sm:text-lg md:text-xl font-bold text-orange-400'>Web Developer</h1>
                         <h2 className=''>Technovanza (Technical college club)</h2>
-                        <h3>(Oct'22 - Present)</h3>
+                        <h3>(Oct&apos;22 - Present)</h3>
 
                     </div>
                 </div>

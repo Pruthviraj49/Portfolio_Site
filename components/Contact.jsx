@@ -23,8 +23,8 @@ const Contact = () => {
     }
     return (
         <div>
-            <div className="pt-20 md:px-40 sm:px-16 px-10 font-chivoMono">
-                <h1 className="text-xl md:text-2xl font-bold text-start pb-10">Contact me</h1>
+            <div className="pt-20 md:px-40 sm:px-16 px-10 font-chivoMono ">
+                <h1 className="text-xl md:text-2xl font-bold text-start underline decoration-orange-400 underline-offset-4 pb-10 ">Contact me</h1>
             </div>
 
             <div className="flex justify-center">

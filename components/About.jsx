@@ -28,7 +28,7 @@ const About = () => {
     return (
         <div>
             <div className="md:px-40 sm:px-16 px-10 font-chivoMono">
-                <h1 className="text-xl md:text-2xl font-bold text-start pb-10">About me</h1>
+                <h1 className="text-xl md:text-2xl font-bold text-start underline decoration-orange-400 underline-offset-4 pb-10">About me</h1>
             </div>
             <div>
 

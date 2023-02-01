@@ -104,6 +104,11 @@ export default function Home() {
                                         <ScrollLink href="#home" >Home</ScrollLink >
                                     </Link>
                                 </li>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'experience' ? 'underline' : ''}`}>
+                                    <Link href="#experience" onClick={() => { setNavbar(!navbar) }}>
+                                        <ScrollLink href="#experience" >Experience</ScrollLink >
+                                    </Link>
+                                </li>
                                 <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3  text-start hover:underline md:hover:bg-transparent ${activeLink === 'about' ? 'underline' : ''}`}>
                                     <Link href="#about" onClick={() => { setNavbar(!navbar) }}>
                                         <ScrollLink href="#about" >About</ScrollLink >
@@ -112,11 +117,7 @@ export default function Home() {
 
 
                                 </li>
-                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'experience' ? 'underline' : ''}`}>
-                                    <Link href="#experience" onClick={() => { setNavbar(!navbar) }}>
-                                        <ScrollLink href="#experience" >Experience</ScrollLink >
-                                    </Link>
-                                </li>
+
                                 <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'projects' ? 'underline-' : ''}`}>
                                     <Link href="#projects" onClick={() => { setNavbar(!navbar) }}>
                                         <ScrollLink href="#projects" >Projects</ScrollLink >

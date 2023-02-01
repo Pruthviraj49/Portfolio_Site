@@ -78,23 +78,30 @@ export default function Home() {
                 </h3>
               </div>
             </div>
-            <p className='sm:text-lg md:text-xl text-base text-center py-5 leading-6 text-gray-900 font-chivoMono max-w-lg mx-auto dark:text-white'>
-              I am currently pursuing B-Tech(3rd Year) in Information Technology from Veermata Jijabai Technological Institute, Mumbai.
-              I am passionate about building excellent software that improves the lives of those around me.
-            </p>
+            <div>
+              <p className='sm:text-lg md:text-xl text-base text-center py-5 leading-6 text-gray-900 font-chivoMono max-w-lg mx-auto dark:text-white'>
+                I am currently pursuing B-Tech(3rd Year) in Information Technology from Veermata Jijabai Technological Institute, Mumbai.
+                I am passionate about building excellent software that improves the lives of those around me.
+              </p>
+              <div className='md:px-64 font-chivoMono'>
+                <button className='text-center items-center font-bold hover:text-white dark:hover:text-black bg-orange-500 max-w-lg mx-auto leading-6 border-2 border-gray-500 rounded-xl py-2 px-5'>Resume</button>
+
+              </div>
+
+            </div>
+
           </div>
         </main>
       </section>
 
+      <section id='experience'>
+        <div><Experience /></div>
+      </section>
 
       <section id='about'>
         <div className='py-20 h-screen'>
           <About />
         </div>
-      </section>
-
-      <section id='experience'>
-        <div><Experience /></div>
       </section>
 
       <section id='projects'>

@@ -64,7 +64,7 @@ export default function Home() {
 
           <div>
             <div className='text-center p-10'>
-              <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 font-semibold font-chivoMono'>Hi, myself Pruthviraj</h2>
+              <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 font-semibold font-chivoMono'>Hi,myself Pruthviraj</h2>
               <div className='inline-flex'>
                 <h3 className='sm:text-2xl md:text-3xl text-lg py-3 font-bold font-chivoMono'>I&apos;m a</h3>
                 <h3 className='sm:text-2xl md:text-3xl text-lg py-3 px-2 font-bold font-chivoMono text-orange-500'>
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       <section id='about'>
-        <div className='py-20 h-screen'>
+        <div>
           <About />
         </div>
       </section>

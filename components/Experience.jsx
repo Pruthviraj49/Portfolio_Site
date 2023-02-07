@@ -1,32 +1,33 @@
 import React from 'react'
-import TabBar from './Tabs'
+import Skills from './Skills'
+
 
 export default function Experience() {
     return (
-        <div>
-            <div className="pt-10 md:px-40 sm:px-16 px-10 font-chivoMono">
+        <div className='pb-32'>
+            <div className="pt-20 md:px-40 sm:px-16 px-10 font-chivoMono pb-20">
                 <h1 className="text-xl md:text-2xl font-bold text-start pb-10 underline decoration-orange-400 underline-offset-4">Experience and Skills</h1>
             </div>
 
-            <div className='flex flex-col sm:flex-row justify-between md:px-52 sm:px-16 px-12 font-chivoMono pb-16'>
-                <div>
-                    <div className='text-lg sm:text-xl md:text-2xl font-bold  pb-3'>
+            <div className='flex flex-col md:flex-row justify-evenly font-chivoMono pb-16'>
+                <div className='md:pl-52 sm:px-16 px-12'>
+                    <div className='text-lg sm:text-xl md:text-2xl font-bold pb-3'>
                         <span className='text-3xl  md:text-5xl'>🧑‍🎓</span> Internship
                     </div>
                     <div className='pb-5'>
                         <h1 className='text-base sm:text-lg md:text-xl font-bold text-orange-400'>Flutter Developer</h1>
-                        <h2 className=''>Incipient Technologies Pvt Ltd</h2>
+                        <h2 className=''>Incipient Technologies Pvt.Ltd</h2>
                         <h3>(Aug&apos;22 - Oct&apos;22)</h3>
 
                     </div>
                 </div>
-                <div>
+                <div className='md:pl-52 sm:px-16 px-12 pb-12 sm:pb-0'>
                     <div className='text-lg sm:text-xl md:text-2xl font-bold pb-3'>
                         <span className='text-3xl  md:text-5xl'>👨‍🏫</span>  Voluntouring
                     </div>
                     <div className='pb-5'>
                         <h1 className='text-base sm:text-lg md:text-xl font-bold text-orange-400'>Web Developer</h1>
-                        <h2 className=''>Technovanza (Technical college club)</h2>
+                        <h2 className=''>Technovanza (Technical Club)</h2>
                         <h3>(Oct&apos;22 - Present)</h3>
 
                     </div>
@@ -50,8 +51,8 @@ export default function Experience() {
                     Skills
                 </div>
             </div>
-            <div className=' pt-20 md:px-40 sm:px-16 px-10 font-chivoMono'>
-                <TabBar />
+            <div className=' pt-20 md:px-40 sm:px-16 px-10 font-chivoMono font-bold'>
+                <Skills />
             </div>
 
 

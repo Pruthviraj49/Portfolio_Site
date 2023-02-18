@@ -36,7 +36,7 @@ const About = () => {
             <section className="font-chivoMono ">
 
                 <div className="grid justify-center pl-12 pr-12">
-                    <div className="col-span-2 pb-5">
+                    <div className="col-span-2 pb-5 ">
                         <div className="flex flex-col">
                             <div className="flex">
                                 <span className="text-3xl md:text-4xl pr-1">🎓</span>

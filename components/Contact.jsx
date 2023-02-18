@@ -9,15 +9,24 @@ const Contact = () => {
     });
 
     const handleSubmit = async e => {
-
         e.preventDefault();
-
+    
+        if (!values.name || !values.email || !values.message) {
+            alert("Please fill in all fields.");
+            return;
+        }
+    
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(values.email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+    
         emailjs.sendForm("service_dnz8w4o", "template_r1xw9ey", e.target, "UgQ-r5k9xC8n14J0z").then(res => {
             alert('Email Sent');
         }).catch(err => console.log(err));
-
-
     }
+    
     const onchange = (e) => {
         setValues((prev) => ({ ...prev, [e.target.name]: e.target.value }))
     }

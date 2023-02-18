@@ -13,7 +13,7 @@ export default function Home() {
     const { systemTheme, theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const [color, setColor] = useState(false);
-
+    const [animate, setAnimation] = useState(false);
 
     const changeColor = () => {
         if (window.scrollY >= 60) {
@@ -100,7 +100,7 @@ export default function Home() {
                         >
                             <ul className="b-1 items-center justify-center space-y-1 md:flex md:space-x-6 md:space-y-0 ">
                                 <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'home' ? 'underline' : ''}`}>
-                                    <Link href="#home" onClick={() => { setNavbar(!navbar) }} >
+                                    <Link href="#home" onClick={() => { setNavbar(!navbar) } } >
                                         <ScrollLink href="#home" >Home</ScrollLink >
                                     </Link>
                                 </li>

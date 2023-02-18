@@ -9,38 +9,8 @@ import Projects from '../components/Projects'
 import Experience from '../components/Experience'
 import { motion } from 'framer-motion'
 
+
 const inter = Inter({ subsets: ['latin'] })
-
-let easeing = [0.6, -0.05, 0.01, 0.99];
-const stagger = {
-  animate: {
-    transition: {
-      delayChildren: 0.4,
-      staggerChildren: 0.2,
-      staggerDirection: 1
-    }
-  }
-}
-
-const fadeInUp = {
-  intial: {
-    y: -60,
-    opacity: 0,
-    transition: {
-      duration: 1.5, ease: easeing
-    }
-  },
-  animate: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      delay: 1.5,
-      ease: easeing
-    }
-  }
-};
-const transition = { duration: 1.5, ease: [0.6, 0.01, -0.05, 0.9] };
 
 
 export default function Home() {
@@ -93,11 +63,13 @@ export default function Home() {
           </div>
         </main>
       </section>
+
       <section id='about'>
         <div>
           <About />
         </div>
       </section>
+
       <section id='experience'>
         <div><Experience /></div>
       </section>

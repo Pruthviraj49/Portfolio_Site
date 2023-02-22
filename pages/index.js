@@ -70,6 +70,7 @@ export default function Home() {
         </div>
       </section>
 
+
       <section id='experience'>
         <div><Experience /></div>
       </section>

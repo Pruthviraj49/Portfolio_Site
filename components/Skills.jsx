@@ -11,8 +11,48 @@ export default function Skills() {
                             <article className='flex'>
                                 <BsPatchCheckFill />
                                 <div className='px-2'>
-                                    <h3>Android Studio</h3>
-                                    <small>Intermediate</small>
+                                    <h3>Flutter</h3>
+
+                                </div>
+
+                            </article>
+                            <article className='flex'>
+                                <BsPatchCheckFill />
+                                <div className='px-2'>
+                                    <h3>Dart</h3>
+
+                                </div>
+
+                            </article>
+                            <article className='flex'>
+                                <BsPatchCheckFill />
+                                <div className='px-2'>
+                                    <h3>Java</h3>
+
+                                </div>
+
+                            </article>
+                            <article className='flex'>
+                                <BsPatchCheckFill />
+                                <div className='px-2'>
+                                    <h3>Flutter</h3>
+
+                                </div>
+
+                            </article>
+                            <article className='flex'>
+                                <BsPatchCheckFill />
+                                <div className='px-2'>
+                                    <h3>Flutter</h3>
+
+                                </div>
+
+                            </article>
+                            <article className='flex'>
+                                <BsPatchCheckFill />
+                                <div className='px-2'>
+                                    <h3>Flutter</h3>
+
                                 </div>
 
                             </article>

@@ -1,16 +1,33 @@
 import React from "react";
+import { motion, variants } from "framer-motion";
 
 const About = () => {
     return (
 
 
         <div className="pt-24 ">
-            <div className="md:px-40 sm:px-16 px-8 font-chivoMono">
-                <h1 className="text-xl md:text-2xl font-bold text-start underline decoration-orange-400 underline-offset-4 pb-5 md:pb-20">About me</h1>
-            </div>
+            <motion.div className="pt-20 md:px-40 sm:px-16 px-8 font-chivoMono md:pb-20"
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: false, amount: 0.1 }}
+                transition={{
+                    type: "spring",
+                    bounce: 0.4,
+                    duration: 1
+                }}
+            >
+                <motion.h1 className="text-xl md:text-2xl font-bold text-start pb-10 underline decoration-orange-400 underline-offset-4">
+                    About me
+                </motion.h1>
+            </motion.div>
             <section className="font-chivoMono ">
 
-                <div className="relative w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <motion.div className="relative w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8"
+                    initial={{ x: 250, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    transition={{ duration: 1.25 }}
+                >
                     <div className=" absolute top-0 left-4 w-4 h-full bg-gray-400 dark:bg-gray-700 rounded-md"></div>
                     <ul className="relative z-10 px-10 sm:grid sm:grid-cols-3 justify-evenly sm:gap-x-8">
                         <li className="sm:py-12">
@@ -65,7 +82,7 @@ const About = () => {
                     </ul>
 
 
-                </div>
+                </motion.div>
 
 
 

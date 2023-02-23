@@ -28,11 +28,21 @@ export default function Home() {
       <section id='home' >
         <main className='flex flex-col lg:flex-row items-center lg:justify-around mx-auto px-10 sm:py-28 md:py-40 md:px-20 lg:px-40 py-20 lg:pt-40' >
 
-          <div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b bg-gray-100 rounded-full md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'>
+          <motion.div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b bg-gray-100 rounded-full md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1, }}
+            viewport={{ once: false }}
+            transition={{ duration: 1 }}
+          >
             <Image src={pruthvi} layout="contain" objectFit='contain' alt="default" />
-          </div>
+          </motion.div>
 
-          <div>
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1 }}
+          >
             <div className='text-center p-10'>
               <h2 className='sm:text-4xl md:text-5xl text-3xl py-3 font-semibold font-chivoMono'>Hi,myself Pruthviraj</h2>
               <div className='inline-flex'>
@@ -60,7 +70,7 @@ export default function Home() {
 
             </div>
 
-          </div>
+          </motion.div>
         </main>
       </section>
 

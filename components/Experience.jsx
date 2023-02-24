@@ -24,7 +24,7 @@ export default function Experience() {
             <div className="pb-10 px-10">
 
                 <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono pb-7">
-                    <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: -50, y: -50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -43,7 +43,7 @@ export default function Experience() {
                         </div>
 
                     </motion.div>
-                    <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: 50, y: -50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -71,7 +71,7 @@ export default function Experience() {
 
 
                 <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono">
-                    <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: -50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -92,7 +92,7 @@ export default function Experience() {
                             </a>
                         </div>
                     </motion.div>
-                    <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: 50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}

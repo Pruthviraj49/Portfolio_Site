@@ -47,21 +47,25 @@ const Projects = () => {
                 transition={{ duration: 0.5 }}
             >
 
-                <motion.div className='bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
+                <motion.div className='bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
                     <motion.div className='px-10 sm:px-20 md:px-5'
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project1} height={250} layout="" objectFit='cover' alt="default" />
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/NewsMania">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project1} height={250} layout="" objectFit='cover' alt="default" />
+                        </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
-                            initial={"offScreen"}
-                            whileInView={"onScreen"}
-                            viewport={{ once: false, amount: 0.25 }}
-                            variants={textAnimate}
-                            whileHover={{ scale: 1.1 }}
-                        >NewsMania (Flutter App)</motion.h2>
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/NewsMania">
+                            <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >NewsMania (Flutter App)</motion.h2>
+                        </a>
                         <p className="text-sm sm:text-base md:text-lg px-5">NewsMania essentially uses a News API to fetch Real-time data. We can search news &amp; read it on the article posted by that publisher.</p>
                         <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
                             <div className='flex gap-3 flex-wrap'>
@@ -79,21 +83,25 @@ const Projects = () => {
                         </motion.div>
                     </div>
                 </motion.div>
-                <div className='bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
+                <div className='bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
                     <motion.div className='px-10 sm:px-20 md:px-5'
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/LocalNote">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
+                        </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
-                            initial={"offScreen"}
-                            whileInView={"onScreen"}
-                            viewport={{ once: false, amount: 0.25 }}
-                            variants={textAnimate}
-                            whileHover={{ scale: 1.1 }}
-                        >NoteTake (Flutter App)</motion.h2>
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/LocalNote">
+                            <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >LocalNote (Flutter App)</motion.h2>
+                        </a>
                         <p className="text-sm sm:text-base md:text-lg px-5">NoteTake app is a short notes&ndash;taking app. In this app, we can perform CRUD operations with a user&ndash;friendly UI design.</p>
                         <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
                             <div className='flex gap-3 flex-wrap'>
@@ -116,35 +124,38 @@ const Projects = () => {
                 </div>
 
                 <div
-                    className='bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'
+                    className='bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'
 
                 >
                     <motion.div className='px-10 sm:px-20 md:px-5'
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <Image
+                        <a target={'_blank'} href="https://newsmania-5r45.onrender.com">
+                            <Image
 
-                            className='border-2 dark:border-white border-gray-800 rounded-lg'
-                            src={Project3}
-                            height={250}
-                            layout='fit'
-                            objectFit='cover'
-                            alt='default'
+                                className='border-2 dark:border-white border-gray-800 rounded-lg'
+                                src={Project3}
+                                height={250}
+                                layout='fit'
+                                objectFit='cover'
+                                alt='default'
 
-                        />
+                            /></a>
                     </motion.div>
                     <div className='text-center justify-center pt-10 px-5 sm:px-12 md:px-5'>
-                        <motion.h2
-                            className='text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2'
-                            initial={"offScreen"}
-                            whileInView={"onScreen"}
-                            viewport={{ once: false, amount: 0.25 }}
-                            variants={textAnimate}
-                            whileHover={{ scale: 1.1 }}
-                        >
-                            NewsMania (Web App)
-                        </motion.h2>
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/OSC_News_Mania">
+                            <motion.h2
+                                className='text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2'
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >
+                                NewsMania (Web App)
+                            </motion.h2>
+                        </a>
                         <p className='text-sm sm:text-base md:text-lg px-5'>
 
                             NewsMania essentially uses a News API to fetch Real-time data. We can
@@ -169,21 +180,25 @@ const Projects = () => {
                         </motion.div>
                     </div>
                 </div>
-                <div className='bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
+                <div className='bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
                     <motion.div className='px-10 sm:px-20 md:px-5'
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project4} height={250} layout="" objectFit='cover' alt="default" />
+                        <a target={'_blank'} href="">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project4} height={250} layout="" objectFit='cover' alt="default" />
+                        </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
-                            initial={"offScreen"}
-                            whileInView={"onScreen"}
-                            viewport={{ once: false, amount: 0.25 }}
-                            variants={textAnimate}
-                            whileHover={{ scale: 1.1 }}
-                        >Portfolio (Web App)</motion.h2>
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Portfolio_Site">
+                            <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >Portfolio (Web App)</motion.h2>
+                        </a>
                         <p className="text-sm sm:text-base md:text-lg px-5">NoteTake app is a short notes&ndash;taking app. In this app, we can perform CRUD operations with a user&ndash;friendly UI design.</p>
                         <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
                             <div className='flex gap-3 flex-wrap'>
@@ -204,21 +219,26 @@ const Projects = () => {
                         </motion.div>
                     </div>
                 </div>
-                <div className='bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
+                <div className='bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg pt-10 font-chivoMono pb-20'>
                     <motion.div className='px-10 sm:px-20 md:px-5'
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Drive3.0">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
+
+                        </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
-                            initial={"offScreen"}
-                            whileInView={"onScreen"}
-                            viewport={{ once: false, amount: 0.25 }}
-                            variants={textAnimate}
-                            whileHover={{ scale: 1.1 }}
-                        >Drive3.0(Web-Blockchain App)</motion.h2>
+                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Drive3.0">
+                            <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >Drive3.0(Web-Blockchain App)</motion.h2>
+                        </a>
                         <p className="text-sm sm:text-base md:text-lg px-5">NoteTake app is a short notes&ndash;taking app. In this app, we can perform CRUD operations with a user&ndash;friendly UI design.</p>
                         <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
                             <div className='flex gap-3 flex-wrap'>

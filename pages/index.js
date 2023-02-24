@@ -65,8 +65,9 @@ export default function Home() {
                 I am passionate about building excellent software that improves the lives of those around me.
               </p>
               <div className='md:px-64 font-chivoMono flex justify-center'>
-                <button className='text-center items-center font-bold hover:text-white dark:hover:text-black bg-orange-500 max-w-lg mx-auto leading-6 border-2 border-gray-500 rounded-xl py-2 px-5'>Resume</button>
-
+                <a target={'_blank'} href='https://drive.google.com/file/d/1H163J3jXfklf_a6DNfVRCE4exwOHHIW1/view?usp=sharing'>
+                  <button className='text-center items-center font-bold hover:text-white dark:hover:text-black bg-orange-500 max-w-lg mx-auto leading-6 border-2 border-gray-500 rounded-xl py-2 px-5'>Resume</button>
+                </a>
               </div>
 
             </div>

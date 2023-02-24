@@ -7,6 +7,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects'
 import Experience from '../components/Experience'
+import Skills from '../components/Skills'
 import { motion } from 'framer-motion'
 
 
@@ -84,6 +85,12 @@ export default function Home() {
       <section id='experience'>
         <div><Experience /></div>
       </section>
+      <section id='skills'>
+        <div>
+          <Skills />
+        </div>
+      </section>
+
 
       <section id='projects'>
         <div>

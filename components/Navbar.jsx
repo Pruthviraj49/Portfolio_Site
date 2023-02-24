@@ -98,9 +98,9 @@ export default function Home() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-1 md:p-0 block' : 'hidden'
                                 }`}
                         >
-                            <ul className="b-1 items-center justify-center space-y-1 md:flex md:space-x-6 md:space-y-0 ">
+                            <ul className="b-1 items-center justify-center space-y-1 md:flex md:space-x-6 md:space-y-0 text-orange-500 ">
                                 <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'home' ? 'underline' : ''}`}>
-                                    <Link href="#home" onClick={() => { setNavbar(!navbar) } } >
+                                    <Link href="#home" onClick={() => { setNavbar(!navbar) }} >
                                         <ScrollLink href="#home" >Home</ScrollLink >
                                     </Link>
                                 </li>
@@ -114,6 +114,11 @@ export default function Home() {
                                         <ScrollLink href="#experience" >Experience</ScrollLink >
                                     </Link>
                                 </li>
+                                <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'home' ? 'underline' : ''}`}>
+                                    <Link href="#skills" onClick={() => { setNavbar(!navbar) }} >
+                                        <ScrollLink href="#skills" >Skills</ScrollLink >
+                                    </Link>
+                                </li>
 
                                 <li className={`pb-2 scroll-smooth text-base font-semibold md:text-lg px-3 text-start hover:underline md:hover:bg-transparent ${activeLink === 'projects' ? 'underline-' : ''}`}>
                                     <Link href="#projects" onClick={() => { setNavbar(!navbar) }}>
@@ -125,6 +130,7 @@ export default function Home() {
                                         <ScrollLink href="#contact" >Contact</ScrollLink >
                                     </Link>
                                 </li>
+
 
                                 <div className='px-3 text-start '>
                                     <div onClick={() => setNavbar(!navbar)} >

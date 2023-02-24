@@ -6,8 +6,8 @@ export default function Experience() {
 
 
     return (
-        <div className="pb-32">
-            <motion.div className="pt-20 md:px-40 sm:px-16 px-8 font-chivoMono md:pb-20"
+        <div className="pb-32 pt-16">
+            <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.25 }}
@@ -18,12 +18,12 @@ export default function Experience() {
                 }}
             >
                 <motion.h1 className="text-xl md:text-2xl font-bold text-start pb-10 underline decoration-orange-400 underline-offset-4">
-                    Experience and Skills
+                    Experience
                 </motion.h1>
             </motion.div>
             <div className="pb-10 px-10">
 
-                <div className="grid md:grid-cols-2 gap-8 md:px-48 sm:px-16 px-6 font-chivoMono pb-7">
+                <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono pb-7">
                     <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: -50, y: -50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
@@ -70,7 +70,7 @@ export default function Experience() {
 
 
 
-                <div className="grid md:grid-cols-2 gap-8 md:px-48 sm:px-16 px-6 font-chivoMono">
+                <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono">
                     <motion.div className="bg-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6"
                         initial={{ x: -50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
@@ -112,14 +112,7 @@ export default function Experience() {
                 </div>
 
             </div>
-            <div className="md:px-52 sm:px-16 px-12 md:text-center">
-                <div className="text-xl md:text-2xl font-bold text-center font-chivoMono underline decoration-orange-400 underline-offset-4">
-                    Skills
-                </div>
-            </div>
-            <div className=" pt-20 md:px-40 sm:px-16 px-8 font-chivoMono font-bold">
-                <Skills />
-            </div>
+
         </div>
     );
 }

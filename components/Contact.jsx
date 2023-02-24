@@ -30,9 +30,11 @@ const Contact = () => {
     const onchange = (e) => {
         setValues((prev) => ({ ...prev, [e.target.name]: e.target.value }))
     }
+
+
     return (
         <div>
-            <motion.div className="pt-20 md:px-40 sm:px-16 px-8 font-chivoMono md:pb-20"
+            <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.25 }}
@@ -50,20 +52,44 @@ const Contact = () => {
             <div className="flex justify-center">
                 <div className="font-chivoMono text-center w-full pb-20">
                     <form onSubmit={handleSubmit} >
-                        <div className='py-5'>
+                        <motion.div className='py-5'
+                            initial={{ x: 50, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            viewport={{ once: false, amount: 0.25 }}
+                            transition={{ duration: 0.75, }}
+                            whileHover={{ scale: 1.05 }}
+                        >
                             <input type="text" name="name" value={values.name} onChange={onchange} className="input p-3 border-2 border-gray-700 rounded-lg w-2/3 sm:w-1/3" placeholder="Enter your name" />
-                        </div>
-                        <div className='py-5'>
+                        </motion.div>
+                        <motion.div className='py-5'
+                            initial={{ x: -50, opacity: 0 }}
+                            whileInView={{ x: 0, opacity: 1 }}
+                            viewport={{ once: false, amount: 0.25 }}
+                            transition={{ duration: 0.75, }}
+                            whileHover={{ scale: 1.05 }}
+                        >
                             <input type="text" name="email" value={values.email} onChange={onchange} className="input p-3 border-2 border-gray-700 rounded-lg w-2/3 sm:w-1/3" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
-                        </div>
-                        <div className='py-5 px-5'>
+                        </motion.div>
+                        <motion.div className='py-5 px-5'
+                            initial={{ y: 50, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: false, amount: 0.25 }}
+                            transition={{ duration: 0.75, }}
+                            whileHover={{ scale: 1.05 }}
+                        >
                             <textarea value={values.message} onChange={onchange} className=" border-2 border-gray-700 rounded-lg px-3 py-1 w-4/5 sm:w-2/5 " rows={7} name="message" id="" placeholder="Enter your message"></textarea>
-                        </div>
-                        <div className='p-10'>
+                        </motion.div>
+                        <motion.div className='p-10'
+                            initial={{ y: 50, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: false, amount: 0.15 }}
+                            transition={{ duration: 0.75, }}
+                            whileHover={{ scale: 1.05 }}
+                        >
                             <button className="border-2 border-gray-700 rounded-lg py-2 px-7 bg-orange-400 font-semibold active:bg-orange-500">
                                 Submit
                             </button>
-                        </div>
+                        </motion.div>
 
                     </form>
 

@@ -52,12 +52,12 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/NewsMania">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
                             <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project1} height={250} layout="" objectFit='cover' alt="default" />
                         </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/NewsMania">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
                             <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
                                 initial={"offScreen"}
                                 whileInView={"onScreen"}
@@ -88,12 +88,12 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/LocalNote">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/LocalNote">
                             <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
                         </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/LocalNote">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/LocalNote">
                             <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
                                 initial={"offScreen"}
                                 whileInView={"onScreen"}
@@ -131,7 +131,7 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target={'_blank'} href="https://newsmania-5r45.onrender.com">
+                        <a target='_blank' rel="noreferrer" href="https://newsmania-5r45.onrender.com">
                             <Image
 
                                 className='border-2 dark:border-white border-gray-800 rounded-lg'
@@ -144,7 +144,7 @@ const Projects = () => {
                             /></a>
                     </motion.div>
                     <div className='text-center justify-center pt-10 px-5 sm:px-12 md:px-5'>
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/OSC_News_Mania">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/OSC_News_Mania">
                             <motion.h2
                                 className='text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2'
                                 initial={"offScreen"}
@@ -185,12 +185,12 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target={'_blank'} href="">
+                        <a target='_blank' rel="noreferrer" href="">
                             <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project4} height={250} layout="" objectFit='cover' alt="default" />
                         </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Portfolio_Site">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Portfolio_Site">
                             <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
                                 initial={"offScreen"}
                                 whileInView={"onScreen"}
@@ -224,13 +224,13 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Drive3.0">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
                             <Image className='border-2 dark:border-white border-gray-800 rounded-lg' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
 
                         </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <a target={'_blank'} href="https://github.com/Pruthviraj49/Drive3.0">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
                             <motion.h2 className="text-base sm:text-lg md:text-xl font-bold cursor-pointer hover:underline mb-2"
                                 initial={"offScreen"}
                                 whileInView={"onScreen"}

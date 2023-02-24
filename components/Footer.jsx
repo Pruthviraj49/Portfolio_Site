@@ -7,11 +7,11 @@ export default class Footer extends Component {
             <footer className=" bg-gray-900 text-white py-4 w-full font-chivoMono">
 
                 <motion.div className='flex text-4xl justify-center gap-7 py-10 '
-                    initial={{ y: 50, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    viewport={{ once: false, amount: 0.25 }}
-                    transition={{ duration: 0.60, }}
-                    whileHover={{ scale: 1.05 }}
+
+                    initial={{ y: -50, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1, }}
+                    viewport={{ once: false }}
+                    transition={{ duration: 1 }}
                 >
                     <div> <a href='https://www.linkedin.com/in/pruthviraj-suryawanshi-9628b4205/'><AiFillLinkedin className='rounded-lg cursor-pointer bg-[#0A66C2]' id='linkedin' /></a></div>
                     <div> <a href='https://www.facebook.com/pruthviraj.suryawanshi.566/'><AiFillFacebook className='rounded-lg cursor-pointer bg-[#3b5998]' id='facebook' /></a></div>
@@ -24,6 +24,7 @@ export default class Footer extends Component {
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: false, amount: 0.25 }}
                     transition={{ duration: 0.75, }}
+
                 >
 
                     <p className="text-center px-5">Copyright © {new Date().getFullYear()} Pruthviraj</p>

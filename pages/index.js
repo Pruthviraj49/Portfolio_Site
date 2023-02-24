@@ -98,6 +98,7 @@ export default function Home() {
         </div>
 
       </section>
+
       <section id='contact'>
         <Contact />
       </section>

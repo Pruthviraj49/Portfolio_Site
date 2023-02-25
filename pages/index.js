@@ -27,7 +27,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section id='home' >
-        <main className='flex flex-col lg:flex-row items-center lg:justify-around mx-auto px-10 sm:py-28 md:py-40 md:px-20 lg:px-40 py-20 lg:pt-40' >
+        <main className='flex flex-col lg:flex-row items-center lg:justify-around mx-auto my-auto px-10 max-w-7xl py-10 lg:pt-40' >
 
           <motion.div className='relative overflow-hidden mx-auto mt-10 bg-gradient-to-b bg-gray-100 rounded-full md:max-w-4xl md:max-h-4xl sm:w-96 sm:h-96 w-80 h-80'
             initial={{ x: -100, opacity: 0 }}
@@ -66,7 +66,7 @@ export default function Home() {
               </p>
               <div className='md:px-64 font-chivoMono flex justify-center'>
                 <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1H163J3jXfklf_a6DNfVRCE4exwOHHIW1/view?usp=sharing'>
-                  <button className='text-center items-center font-bold hover:text-white dark:hover:text-black bg-orange-500 max-w-lg mx-auto leading-6 border-2 border-gray-500 rounded-xl py-2 px-5'>Resume</button>
+                  <button className='text-center items-center font-bold hover:text-white dark:hover:text-black bg-orange-500 max-w-lg mx-auto leading-6 border-2 border-gray-500 rounded-xl py-2 px-5 shadow-lg shadow-black'>Resume</button>
                 </a>
               </div>
 

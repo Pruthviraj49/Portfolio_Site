@@ -58,7 +58,7 @@ export default function Home() {
                             <ScrollLink href="#home" ><Image src={pruthvi} height={60} layout="" objectFit='fit' alt="default" /></ScrollLink >
                             {/* hamburger */}
                             <div className="md:hidden">
-                                <button className="p-1 text-gray-600 rounded-md outline-none focus:border-gray-400 focus:border" onClick={() => setNavbar(!navbar)}>
+                                <button className="p-1 text-gray-600 rounded-md outline-none focus:border-gray-500 focus:border" onClick={() => setNavbar(!navbar)}>
                                     {navbar ? (
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"

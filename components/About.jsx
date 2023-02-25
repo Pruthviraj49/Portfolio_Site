@@ -89,16 +89,16 @@ const About = () => {
 
             <div class="w-full flex justify-center items-center pb-10 pt-10">
 
-                <div class="max-w-5xl  mx-auto w-full grid grid-cols-9 px-5">
+                <div class="max-w-5xl  mx-auto w-full grid grid-cols-9 px-10">
 
-                    <motion.div class="col-span-4 w-full h-full "
+                    <motion.div class="dark:bg-gray-700/40 col-span-4 w-full h-full shadow-lg shadow-black"
                         initial={{ x: 50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.20 }}
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full bg-gray-300 dark:bg-gray-900 rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full  rounded-md p-3 md:pl-4">
                             <span className="block text-sm md:text-base  font-bold text-gray-700 dark:text-gray-400">2020 - Present</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">B-Tech in IT</span>
                             <span className="block text-sm md:text-base  font-semibold text-gray-500 dark:text-gray-400">VJTI, Mumbai</span>
@@ -121,14 +121,14 @@ const About = () => {
                         <div class="absolute w-6 h-6 rounded-full bg-orange-500 z-10 font-bold text-center">2</div>
                     </div>
 
-                    <motion.div class="col-span-4 w-full h-full "
+                    <motion.div class="dark:bg-gray-700/40 col-span-4 w-full h-full shadow-lg shadow-black"
                         initial={{ x: -50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.20 }}
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full  bg-gray-300 dark:bg-gray-900 rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full   rounded-md p-3 md:pl-4">
                             <span className="block text-sm md:text-base font-bold text-gray-700 dark:text-gray-400">2020</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">HSC 12th</span>
                             <span className="block text-sm md:text-base  font-semibold text-gray-500 dark:text-gray-400">Ichalkaranji, Kolhapur</span>
@@ -138,14 +138,14 @@ const About = () => {
                     </motion.div>
 
 
-                    <motion.div class="col-span-4 w-full h-full "
+                    <motion.div class="dark:bg-gray-700/40 col-span-4 w-full h-full shadow-lg shadow-black "
                         initial={{ x: 50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.20 }}
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full  bg-gray-300 dark:bg-gray-900  rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full    rounded-md p-3 md:pl-4">
                             <span className="block text-sm md:text-base font-bold text-gray-700 dark:text-gray-400">2018</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">SSC 10th</span>
                             <span className="block text-sm md:text-base font-semibold text-gray-500 dark:text-gray-400">Ichalkaranji, Kolhapur</span>

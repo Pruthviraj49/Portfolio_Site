@@ -6,7 +6,7 @@ export default function Experience() {
 
 
     return (
-        <div className="pb-32 pt-16">
+        <div className="pb-32">
             <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
@@ -23,8 +23,8 @@ export default function Experience() {
             </motion.div>
             <div className="pb-10 px-10">
 
-                <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono pb-7">
-                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                <div className="grid md:grid-cols-2 gap-8 mx-auto my-auto max-w-6xl px-16 font-chivoMono pb-7">
+                    <motion.div className="dark:bg-gray-700/40 rounded shadow-lg shadow-black p-6"
                         initial={{ x: -50, y: -50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -43,7 +43,7 @@ export default function Experience() {
                         </div>
 
                     </motion.div>
-                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="dark:bg-gray-700/40 rounded shadow-lg shadow-black p-6"
                         initial={{ x: 50, y: -50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -70,8 +70,8 @@ export default function Experience() {
 
 
 
-                <div className="grid md:grid-cols-2 gap-8 md:px-40 sm:px-16 px-6 font-chivoMono">
-                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                <div className="grid md:grid-cols-2 gap-8 mx-auto my-auto max-w-6xl px-16 font-chivoMono">
+                    <motion.div className="dark:bg-gray-700/40 rounded shadow-lg shadow-black p-6"
                         initial={{ x: -50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}
@@ -92,7 +92,7 @@ export default function Experience() {
                             </a>
                         </div>
                     </motion.div>
-                    <motion.div className="bg-gray-300 dark:bg-gray-900 rounded-lg shadow-lg p-6"
+                    <motion.div className="dark:bg-gray-700/40 rounded shadow-lg shadow-black p-6"
                         initial={{ x: 50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}
                         viewport={{ once: false, amount: 0.2 }}

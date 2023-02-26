@@ -175,7 +175,7 @@ export default function Skills() {
                             transition={{ duration: 0.75 }}
                         >
                             <div className='flex flex-wrap gap-3'>
-                                {/* <Image src={A_a} alt="Image" className="w-10 h-10" /> */}
+
                                 <h1 className='text-base sm:text-lg md:text-xl font-bold decoration-orange-00'>Web Development</h1>
                             </div>
                             <div className='text-start'>

@@ -6,7 +6,7 @@ const About = () => {
 
 
         <div className="font-chivoMono " >
-            <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
+            <motion.div className="pt-28 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.1 }}
@@ -98,7 +98,7 @@ const About = () => {
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full  rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full rounded-xl p-3 md:pl-4">
                             <span className="block text-sm md:text-base  font-bold text-gray-700 dark:text-gray-400">2020 - Present</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">B-Tech in IT</span>
                             <span className="block text-sm md:text-base  font-semibold text-gray-500 dark:text-gray-400">VJTI, Mumbai</span>
@@ -128,7 +128,7 @@ const About = () => {
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full   rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full  rounded-xl p-3 md:pl-4">
                             <span className="block text-sm md:text-base font-bold text-gray-700 dark:text-gray-400">2020</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">HSC 12th</span>
                             <span className="block text-sm md:text-base  font-semibold text-gray-500 dark:text-gray-400">Ichalkaranji, Kolhapur</span>
@@ -145,7 +145,7 @@ const About = () => {
                         transition={{ duration: 0.75, }}
                         whileHover={{ scale: 1.05 }}
                     >
-                        <div class="w-full h-full    rounded-md p-3 md:pl-4">
+                        <div class="w-full h-full    rounded-xl p-3 md:pl-4">
                             <span className="block text-sm md:text-base font-bold text-gray-700 dark:text-gray-400">2018</span>
                             <span className="block text-lg md:text-xl font-bold text-gray-900 dark:text-white">SSC 10th</span>
                             <span className="block text-sm md:text-base font-semibold text-gray-500 dark:text-gray-400">Ichalkaranji, Kolhapur</span>

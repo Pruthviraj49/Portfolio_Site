@@ -7,7 +7,7 @@ export default function Experience() {
 
     return (
         <div className="pb-32">
-            <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
+            <motion.div className="pt-28 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.25 }}
@@ -33,6 +33,13 @@ export default function Experience() {
                     >
                         <div className="text-lg sm:text-xl md:text-xl font-bold pb-3">
                             <span className="text-2xl md:text-3xl">🧑‍🎓</span> Internship
+                        </div>
+                        <div className="pb-5">
+                            <h1 className="text-base sm:text-lg md:text-xl font-meduim text-orange-400">
+                                App Developer
+                            </h1>
+                            <h2>VJTI (under Dr. M.R. Shirole)</h2>
+                            <h3>(Jun&apos;23 - Aug&apos;23)</h3>
                         </div>
                         <div className="pb-5">
                             <h1 className="text-base sm:text-lg md:text-xl font-meduim text-orange-400">
@@ -70,7 +77,7 @@ export default function Experience() {
 
 
 
-                <div className="grid md:grid-cols-2 gap-8 mx-auto my-auto max-w-6xl px-16 font-chivoMono">
+                <div className="grid md:grid-cols-2 gap-8 mx-auto my-auto max-w-6xl px-16 py-5 font-chivoMono">
                     <motion.div className="dark:bg-gray-700/40 rounded shadow-lg shadow-black p-6"
                         initial={{ x: -50, y: 50, opacity: 0 }}
                         whileInView={{ x: 0, y: 0, opacity: 1 }}

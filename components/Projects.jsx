@@ -5,6 +5,8 @@ import Project2 from '../public/Project2.png'
 import Project1 from '../public/Project1.png'
 import Project3 from '../public/newsMania.png'
 import Project4 from '../public/portfolio.png'
+import Project5 from '../public/todo.png'
+import Drive from '../public/drive.png'
 import { motion, Variants } from 'framer-motion'
 
 
@@ -25,7 +27,7 @@ const Projects = () => {
 
     return (
         <div className="pb-32">
-            <motion.div className="pt-20 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
+            <motion.div className="pt-28 md:px-28 sm:px-16 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.25 }}
@@ -46,6 +48,88 @@ const Projects = () => {
                 viewport={{ once: false, amount: 0.2 }}
                 transition={{ duration: 0.5 }}
             >
+                <div className='dark:bg-gray-700/40 rounded shadow-lg shadow-black pt-10 font-chivoMono pb-10'>
+                    <motion.div className='px-10 sm:px-20 md:px-5'
+
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded' src={Drive} height={250} layout="" objectFit='cover' alt="default" />
+
+                        </a>
+                    </motion.div>
+                    <div className="text-center justify-center pt-7 px-5 sm:px-12 md:px-5">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
+                            <motion.h2 className="text-base sm:text-md md:text-lg font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >Drive3.0(Web-Blockchain App)</motion.h2>
+                        </a>
+                        <p className="text-sm sm:text-md md:text-base  px-2">NoteTake app is a short notes&ndash;taking app. In this app, we can perform CRUD operations with a user&ndash;friendly UI design.</p>
+                        <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1">React.js</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1">CSS</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1">HTML</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div class="rounded-md bg-orange-500 p-1 ">Solidity</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div class="rounded-md bg-orange-500 p-1 ">HardHat</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div class="rounded-md bg-orange-500 p-1 ">Pinata</div>
+                            </div>
+                        </motion.div>
+                    </div>
+                </div>
+                <motion.div className='dark:bg-gray-700/40 rounded shadow-lg shadow-black pt-10 font-chivoMono pb-10'>
+                    <motion.div className='px-10 sm:px-20 md:px-5'
+
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
+                            <Image className='border-2 dark:border-white border-gray-800 rounded' src={Project5} height={250} layout="" objectFit='cover' alt="default" />
+                        </a>
+                    </motion.div>
+                    <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
+                            <motion.h2 className="text-base sm:text-md md:text-lg font-bold cursor-pointer hover:underline mb-2"
+                                initial={"offScreen"}
+                                whileInView={"onScreen"}
+                                viewport={{ once: false, amount: 0.25 }}
+                                variants={textAnimate}
+                                whileHover={{ scale: 1.1 }}
+                            >TODO (Web App)</motion.h2>
+                        </a>
+                        <p className="text-sm sm:text-md md:text-base px-2">The MERN To-Do App offers user registration, task creation with due dates and priorities, real-time updates, task filtering</p>
+                        <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1">React</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1">NodeJS</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1 ">MongoDB</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1 ">ExpressJS</div>
+                            </div>
+                            <div className='flex gap-3 flex-wrap'>
+                                <div className="rounded-md bg-orange-500 p-1 ">Tailwind CSS</div>
+                            </div>
+                        </motion.div>
+                    </div>
+                </motion.div>
 
                 <motion.div className='dark:bg-gray-700/40 rounded shadow-lg shadow-black pt-10 font-chivoMono pb-10'>
                     <motion.div className='px-10 sm:px-20 md:px-5'
@@ -66,7 +150,7 @@ const Projects = () => {
                                 whileHover={{ scale: 1.1 }}
                             >NewsMania (Flutter App)</motion.h2>
                         </a>
-                        <p className="text-sm sm:text-md md:text-base px-2">NewsMania essentially uses a News API to fetch Real-time data. We can search news &amp; read it on the article posted by that publisher.</p>
+                        <p className="text-sm sm:text-md md:text-base px-2">NewsMania essentially uses a News API to fetch Real-time data. We can search news &amp; read it on the official article.</p>
                         <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
                             <div className='flex gap-3 flex-wrap'>
                                 <div className="rounded-md bg-orange-500 p-1">Flutter</div>
@@ -219,49 +303,7 @@ const Projects = () => {
                         </motion.div>
                     </div>
                 </div>
-                <div className='dark:bg-gray-700/40 rounded shadow-lg shadow-black pt-10 font-chivoMono pb-10'>
-                    <motion.div className='px-10 sm:px-20 md:px-5'
-
-                        whileHover={{ scale: 1.05 }}
-                    >
-                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
-                            <Image className='border-2 dark:border-white border-gray-800 rounded' src={Project2} height={250} layout="" objectFit='cover' alt="default" />
-
-                        </a>
-                    </motion.div>
-                    <div className="text-center justify-center pt-7 px-5 sm:px-12 md:px-5">
-                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/Drive3.0">
-                            <motion.h2 className="text-base sm:text-md md:text-lg font-bold cursor-pointer hover:underline mb-2"
-                                initial={"offScreen"}
-                                whileInView={"onScreen"}
-                                viewport={{ once: false, amount: 0.25 }}
-                                variants={textAnimate}
-                                whileHover={{ scale: 1.1 }}
-                            >Drive3.0(Web-Blockchain App)</motion.h2>
-                        </a>
-                        <p className="text-sm sm:text-md md:text-base  px-2">NoteTake app is a short notes&ndash;taking app. In this app, we can perform CRUD operations with a user&ndash;friendly UI design.</p>
-                        <motion.div className="flex flex-wrap justify-center font-medium text-xs sm:text-sm md:text-base text-gray-100 gap-3 mt-2 " whileHover={{ scale: 1.05 }}>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div className="rounded-md bg-orange-500 p-1">React.js</div>
-                            </div>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div className="rounded-md bg-orange-500 p-1">CSS</div>
-                            </div>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div className="rounded-md bg-orange-500 p-1">HTML</div>
-                            </div>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div class="rounded-md bg-orange-500 p-1 ">Solidity</div>
-                            </div>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div class="rounded-md bg-orange-500 p-1 ">HardHat</div>
-                            </div>
-                            <div className='flex gap-3 flex-wrap'>
-                                <div class="rounded-md bg-orange-500 p-1 ">Pinata</div>
-                            </div>
-                        </motion.div>
-                    </div>
-                </div>
+                
 
             </motion.div>
         </div>

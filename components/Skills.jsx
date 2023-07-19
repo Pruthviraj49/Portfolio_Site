@@ -32,7 +32,7 @@ import { BsPatchCheckFill } from "react-icons/bs"
 export default function Skills() {
     return (
         <div >
-            <motion.div className="pt-20 md:px-28 sm:px-12 px-8 font-chivoMono md:pb-20"
+            <motion.div className="pt-28 md:px-28 sm:px-12 px-8 font-chivoMono md:pb-20"
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: false, amount: 0.25 }}

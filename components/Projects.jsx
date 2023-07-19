@@ -96,12 +96,12 @@ const Projects = () => {
 
                         whileHover={{ scale: 1.05 }}
                     >
-                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/CRUD_ToDo">
                             <Image className='border-2 dark:border-white border-gray-800 rounded' src={Project5} height={250} layout="" objectFit='cover' alt="default" />
                         </a>
                     </motion.div>
                     <div className="text-center justify-center pt-10 px-5 sm:px-12 md:px-5">
-                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/NewsMania">
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Pruthviraj49/CRUD_ToDo">
                             <motion.h2 className="text-base sm:text-md md:text-lg font-bold cursor-pointer hover:underline mb-2"
                                 initial={"offScreen"}
                                 whileInView={"onScreen"}
